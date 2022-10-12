@@ -102,7 +102,7 @@ $ git add README.md
 ####  Git remote add origin [url]
 ```
 $ git remote add https://github.com/RadjaAzukio/labpy1.git
-
+```
 ## Push ( Mengirim Perubahan ke Server)
 
 #### - Untuk mengirim perubahan pada lokal repostiory ke server gunakan perintah git push.
@@ -125,6 +125,7 @@ $ git push -u origin master
 
 #### - Clone repository, pada dasarya adalah meng-copy repository server dan secara otomatis membuat satu directory sesuai dengan nama repositorynya (*working directory).
 #### - Untuk melakukan cloning, gunakan perintah git clone [url]
+
 ```
 $ git clone [https://github.com/RadjaAzukio/labpy1.git]
 ```
