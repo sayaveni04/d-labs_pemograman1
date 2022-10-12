@@ -88,5 +88,53 @@ $ git add README.md
 #### - Pada laman github, klik tombol *start a project*, atau 
 ####   dari menu (icon +) klik *New Repository*.
 
-![Gambar1](gambar/git5.png)                    ![Gambar1](gambar/git6.png)
+![Gambar1](gambar/git5.png)
+![Gambar1](gambar/git6.png)
+#### - Isi nama repositorynya, misal: labpy.
+#### - Lalu klik tombol *Create repository*.
+
+![Gambar1](gambar/git7.png)
+
+## Menambahkan Remote Repository
+
+#### - Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada lokal repository, sehingga dapat diakses oleh banya user.
+#### - Untuk menambahkan remote repository server, gunakanlah perintah
+####  Git remote add origin [url]
+```
+$ git remote add https://github.com/RadjaAzukio/labpy1.git
+
+## Push ( Mengirim Perubahan ke Server)
+
+#### - Untuk mengirim perubahan pada lokal repostiory ke server gunakan perintah git push.
+```
+$ git push -u origin master
+```
+#### - Perintah ini akan meminta memasukkan *username* dan *password* pada akun anda di github.com
+
+![Gambar1](gambar/git8.png)
+
+## Melihat Hasilnya pada Server Repository
+
+#### - Buka laman github.com, arahkan pada repositorynya
+#### - Maka perubahan akan terlihat pada laman tersebut
+
+![Gambar1](gambar/git9.png)
+
+
+## Clone Repository
+
+#### - Clone repository, pada dasarya adalah meng-copy repository server dan secara otomatis membuat satu directory sesuai dengan nama repositorynya (*working directory).
+#### - Untuk melakukan cloning, gunakan perintah git clone [url]
+```
+$ git clone [https://github.com/RadjaAzukio/labpy1.git]
+```
+
+![Gambar1](gambar/git10.png)
+
+## Kegunaan file README.md
+
+#### - Apabila kita menggunakan github, untuk memberikan penjelasan awal pada project yang kita buat, maka dapat menggunakan sebuah file yang bernama README.md.
+#### - Pada file tersebut kita dapat membuat dokumentasi awal dari setiap project yang kita buat untuk memberikan penjelasan atau sekedar cara peggunaan dari aplikasi yang kita kembangkan.
+#### - Penulisan file README.md berbasis teks, dan untuk pemformatannya menggunakan Markdown format.
+#### - Untuk lebih jelasnya, dapat anda pelajari cara penggunaannya markdown pada url berikut: https://guides.github.com/features/mastering-markdown/
 
