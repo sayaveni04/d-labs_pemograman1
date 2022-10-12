@@ -9,3 +9,19 @@
 git --version
 ```
 ![Gambar1](gambar/git1.png)
+
+### - Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi *user.name* dan *user.email*'
+### - Konfigurasi ini bisa dilakukan untuk global repository atau individual repository
+### - apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perint globah git commit
+
+
+### - Config Global Repository
+```
+$ git config -- global user.name "nama_user"
+```
+```
+$ git config -- global user.email "nama_user"
+```
+
+## Perintah Dasar Git
+
