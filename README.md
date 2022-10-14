@@ -1,6 +1,6 @@
-# CARA PENGUNAAN GIT
+# CARA PENGGUNAAN GIT
 
- ## Instalasi GIT
+## Instalasi GIT
 
 #### - Download GIT, buka website resminya Git (git-scm-com). 
 #### - Kemudian untuk git sesuai dengan arsitektur komputer kita. Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit.
@@ -10,9 +10,9 @@ git --version
 ```
 ![Gambar1](gambar/git1.png)
 
-#### - Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi *user.name* dan *user.email*'
+#### - Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi *user.name* dan *user.email*
 #### - Konfigurasi ini bisa dilakukan untuk global repository atau individual repository
-#### - Apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perint globah git commit
+#### - Apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi kegagalan saat menjalankan perintah global git commit
 
 
 #### - Config Global Repository
@@ -27,11 +27,11 @@ $ git config -- global user.email "nama_user"
 
 
 #### - git init, perintah untuk membuat repository lokal.
-#### - gti add, perintah untuk menambahkan file baru, atau perubahan pada file pada staging sebelum proses commit.
+#### - git add, perintah untuk menambahkan file baru, atau perubahan pada file pada staging sebelum proses commit.
 #### - git commit, perintah untuk meyimpan perubahan kedalam database git.
 #### - git push -u origin master, perintah untuk mengirim perubahan pada repository lokal menuju server repository.
 #### - git clone [url], perintah untuk membuat working directory yang diambil dari repository server.
-#### - git remote add origin[url], perintah untuk menambahkan remote server/repository server pada lokal repository (*working directoty*)
+#### - git remote add origin[url], perintah untuk menambahkan remote server/repository server pada lokal repository (*working directory*)
 #### - git pull, perintah untuk mengambil/mendownload perubahan terbaru dari server repository ke lokal repository.
 
 ## Membuat Repository Lokal
@@ -55,7 +55,7 @@ $ cd Latihan1
 $ git init
 ```
 #### - Repository baru berhasil di inisialisasi, dengan terbentuknya satu directory hidden dengan nama .git
-#### - Pada directory tersebut, senua perubahan pada *working directory* akan disimpan.
+#### - Pada directory tersebut, semua perubahan pada *working directory* akan disimpan.
 
 ## Menambahkan File Baru pada Repository
 
@@ -123,7 +123,7 @@ $ git push -u origin master
 
 ## Clone Repository
 
-#### - Clone repository, pada dasarya adalah meng-copy repository server dan secara otomatis membuat satu directory sesuai dengan nama repositorynya (*working directory).
+#### - Clone repository, pada dasarya adalah meng-copy repository server dan secara otomatis membuat satu directory sesuai dengan nama repositorynya (*working directory*).
 #### - Untuk melakukan cloning, gunakan perintah git clone [url]
 
 ```
